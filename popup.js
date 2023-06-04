@@ -10,12 +10,11 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   function highlightIPA() {
-    // var ipaRegex = \/\\b([a-zA-Zɑɔæɛəɜɪiːɨʉuːʊɒɔːœɶʏʌɤɯˈˌ]+|[ˈˌ][a-zA-Zɑɔæɛəɜɪiːɨʉuːʊɒɔːœɶʏʌɤɯ]+)/g;
 // creating the actual regex is difficult due to the different characters used
     // see unicode block range https://jrgraphix.net/research/unicode_blocks.php
-    var ipaRegex = '\/([\u0020-\u1FFF]+|[ˈˌ][\u0020-\u1FFF])\/g';
+    // var ipaRegex = '\/([\u0020-\u1FFF]+|[ˈˌ][\u0020-\u1FFF])\/g';
 
-    // var ipaRegex = 'Grand Prix'
+    var ipaRegex = 'Grand Prix'
     var elements = document.getElementsByTagName('*');
     for (var i = 0; i < elements.length; i++) {
       var element = elements[i];
@@ -41,7 +40,6 @@ document.addEventListener('DOMContentLoaded', function() {
           }
         }
       }
-      // http://ipa-reader.xyz/
     }
   }
 
