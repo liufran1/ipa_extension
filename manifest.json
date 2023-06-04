@@ -1,0 +1,10 @@
+{
+  "name": "IPA Highlighter",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Highlight IPA text on a page",
+  "permissions": ["storage", "declarativeContent", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
