@@ -1,4 +1,4 @@
-Building an extension that reads out the pronounciation of text that is detected as (International Phonetic Alphabet)[https://en.wikipedia.org/wiki/International_Phonetic_Alphabet] notation
+Building an extension that reads out the pronounciation of text that is detected as [International Phonetic Alphabet](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) notation
 
 **To Do**
 * Detect text properly using regex
