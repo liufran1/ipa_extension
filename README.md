@@ -2,5 +2,5 @@ Building an extension that reads out the pronounciation of text that is detected
 
 **To Do**
 * Detect text properly using regex
-* Insert span when text is detected - currently the way the loop over all html elements is set up results in an infinite loop as new spans are detected
-* Call a pronouncer to read the text out, like http://ipa-reader.xyz/
+* Action on page load - https://developer.chrome.com/docs/extensions/reference/api/action#inject_a_content_script_on_click
+* Call a pronouncer to read the text out, like http://ipa-reader.xyz/ - AWS Polly provides this https://cuttlesoft.com/blog/2018/09/13/pronouncing-things-with-amazons-polly/. Would want to lock it down so the user configures the lambda
